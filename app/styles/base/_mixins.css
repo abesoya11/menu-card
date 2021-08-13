@@ -1,0 +1,19 @@
+
+
+@define-mixin atsmall{
+    @media(min-width:500px ){
+        @mixin-content;
+    }
+}
+
+@define-mixin atmedium{
+    @media(min-width:800px ){
+        @mixin-content;
+    }
+}
+
+@define-mixin atlarge{
+    @media(min-width:1100px ){
+        @mixin-content;
+    }
+}
