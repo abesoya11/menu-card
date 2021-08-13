@@ -69,7 +69,10 @@ body{
     margin-left:15px;
     cursor: pointer;
 }
-
+.item-image{
+    border:1px solid red;
+    display:none;
+}
 .item-name{
     margin:0;
    

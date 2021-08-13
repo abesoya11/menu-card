@@ -10,9 +10,9 @@ if(module.hot){
 }
 
 let menuContainer = document.querySelector(".menu-container");
-let createpage = new createhtml();
+let createpage = new createhtml(menuContainer);
  
-
+/* 
 
 for(const prop in menu){
         
@@ -36,3 +36,4 @@ for(const prop in menu){
       //  createpage.printSectionMenu(menuContainer,,item)
 }
  
+ */
