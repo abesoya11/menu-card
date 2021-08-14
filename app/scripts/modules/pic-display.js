@@ -9,8 +9,8 @@ var flag = 0;
             this.imageIcon = document.querySelector(`.${imageIconClass}`);
             this.imageAddress = `./assets/images/${imageName}`;
             this.closeModal= document.querySelector(".close-modal");
-       */   this.modalBackground = document.querySelector(".modal-background");
-            this.closeModal = document.querySelector(".close-modal");
+       */   this.modalBackground = document.querySelector(`.${imageName }-modal`);
+            this.closeModal = document.querySelector(`.${imageName}-close-modal`);
           
             
              
@@ -56,7 +56,7 @@ var flag = 0;
         }
 
         imageHide(){
-            
+            alert("imagehide fired")
             let imagePreview = document.querySelector(`.${this.imageName}`);
           
             this.modalBackground.style.display = "none";

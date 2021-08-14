@@ -68,7 +68,7 @@ class CreateHtml{
 
    printSectionMenuWithImageIcon(obj,name,price,imageName){
     obj.insertAdjacentHTML('beforeend',`
-    <div class="menu-content">
+     
     <div class="menu-item">
         <p class ="item-name">${name}<i class="far fa-image ${imageName+"-icon"}"></i></p>
          
@@ -76,7 +76,8 @@ class CreateHtml{
             
              
         <p class="item-price">${price}</p>
-    </div> 
+    </div>  <div class="modal-background ${imageName}-modal">
+    <span class="close-modal ${imageName}-close-modal ">X</span></div>
     `)
    }
 }
