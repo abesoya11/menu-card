@@ -10,7 +10,12 @@
                 item1:{name: "Paneer Butter Masala",price:"190",image:"Paneer-butter-masala"},
                 item2:{name: "Soya Chaap Gravy",price:"160",image:"no"},
                 item3:{name: "Butter Chicken",price:"260",image:"no"}        
-    }       
+    },
+    "Breads": {
+        item1:{name: "Butter Naan",price:"190",image:"butter-naan"},
+        item2:{name: "Roomali Roti",price:"160",image:"no"},
+        item3:{name: "Tandoori Roti",price:"260",image:"no"}        
+}             
 }
 
 

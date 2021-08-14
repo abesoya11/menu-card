@@ -1,25 +1,25 @@
 
 
 .menu-item{
-  
+    display: flex;
+    justify-content: space-between;
+    margin:15px;
+    font-size: 1.4rem;
+    position:relative;
 }
 
-.item-name{
-    margin-left:15px;
-}
-
-.item-price{
-   
-}
-
+ 
+ 
 .fa-image{
      
     color:rgb(56, 56, 56);
    
-   
+    margin-left:15px;
     cursor: pointer;
 
 }
+
+ 
 
  
 

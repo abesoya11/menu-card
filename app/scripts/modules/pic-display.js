@@ -35,7 +35,7 @@ var flag = 0;
 
         imageDisplay( ){
 
-     
+           
            
             this.closeModal.addEventListener('click', ()=> this.imageHide(this.imageName));
             
