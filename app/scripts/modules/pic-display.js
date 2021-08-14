@@ -23,7 +23,7 @@ var flag = 0;
      
 
         event( ){
-            alert("event function")
+            console.log("event function fired");
             let imageIcon= document.querySelector(`.${this.imageName}-icon`);
             
             imageIcon.addEventListener('click', ()=>this.imageDisplay(this.imageName));   
