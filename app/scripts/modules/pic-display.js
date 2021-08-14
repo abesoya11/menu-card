@@ -56,7 +56,7 @@ var flag = 0;
         }
 
         imageHide(){
-            alert("imagehide fired")
+           
             let imagePreview = document.querySelector(`.${this.imageName}`);
           
             this.modalBackground.style.display = "none";
