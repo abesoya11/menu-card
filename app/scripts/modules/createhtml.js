@@ -1,4 +1,5 @@
 import menu from './menuList';
+import PicDisplay from './pic-display';
 
 class CreateHtml{
     constructor(obj){
@@ -31,6 +32,10 @@ class CreateHtml{
                         if(menu[prop][items].image !='no'){
                             let imageName = menu[prop][items].image;
                             this.printSectionMenuWithImageIcon(this.menuContainer,name,price,imageName);
+
+
+
+
                         }
                     }
                  
@@ -65,9 +70,9 @@ class CreateHtml{
     obj.insertAdjacentHTML('beforeend',`
     <div class="menu-content">
     <div class="menu-item">
-        <p class ="item-name">${name}<i class="far fa-image"></i></p>
+        <p class ="item-name">${name}<i class="far fa-image ${imageName+"-icon"}"></i></p>
          
-            <img class ="item-image"src="./app/assets/images/${imageName}" alt="">
+            <img class ="item-image   ${imageName}"src="" alt="">
             
              
         <p class="item-price">${price}</p>

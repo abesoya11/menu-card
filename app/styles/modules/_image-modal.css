@@ -1,0 +1,77 @@
+
+
+.modal-background{
+    
+    position:fixed;
+    left:0;
+    right:0;
+   
+    margin:0;
+    
+    border:2px solid rgb(59, 88, 59);
+    width:100%;
+    max-width: 600px;
+    margin:auto;
+    height:100vh;
+    background-color: rgba(41, 41, 41, 0.932);
+    top:0;
+    z-index:3;
+    display: none;
+    
+
+ 
+     
+}
+
+.close-modal{
+    z-index: 10;
+    position: absolute;
+    right:15px;
+    top:10px;
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    transform: scaleX(1.2);
+    cursor: pointer;
+    
+}
+
+ 
+
+.image-preview{
+    box-sizing: border-box;
+    border:3px solid rgb(0, 0, 0);
+     
+    width:100%; 
+    max-width: 600px;
+    
+    position:fixed;
+    left:0;
+    
+     
+    top:100px;
+    
+   
+  
+    z-index:4;
+    
+
+    @mixin atsmall{
+        
+        width:400px;
+        left:50%;
+        transform: translateX(-50%);
+     
+        
+    }
+
+    @mixin atmedium{
+         
+       
+    }
+    
+}
+
+ 

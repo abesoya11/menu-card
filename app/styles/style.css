@@ -1,6 +1,9 @@
  
 @import 'base/_mixins.css';
 
+@import 'modules/_image-modal.css';
+@import 'modules/_menu-content.css';
+
 
 
 body{
@@ -56,6 +59,7 @@ body{
     justify-content: space-between;
     margin:20px;
     font-size: 1.4rem;
+    position:relative;
 }
 
 .image-box{
@@ -70,8 +74,9 @@ body{
     cursor: pointer;
 }
 .item-image{
-    border:1px solid red;
-    display:none;
+    
+     
+  
 }
 .item-name{
     margin:0;

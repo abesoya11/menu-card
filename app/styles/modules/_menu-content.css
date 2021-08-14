@@ -1,0 +1,33 @@
+
+
+.menu-item{
+  
+}
+
+.item-name{
+    margin-left:15px;
+}
+
+.item-price{
+   
+}
+
+.fa-image{
+     
+    color:rgb(56, 56, 56);
+   
+   
+    cursor: pointer;
+
+}
+
+ 
+
+.image-dormant{
+     
+    width:0;
+    height:0;
+    position:relative;
+    
+    z-index:-1;
+}

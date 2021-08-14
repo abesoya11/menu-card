@@ -2,12 +2,12 @@
 
  var menu = {
     "Starters" : {
-                item1:{name: "Paneer Tikka",price:"190",image:"paneer-tikka.jpg"},
+                item1:{name: "Paneer Tikka",price:"190",image:"paneer-tikka"},
                 item2:{name: "Soya Tikka",price:"160",image:"no"},
                 item3:{name: "Chicken Tikka",price:"260",image:"no"}
             },
     "Main Course": {
-                item1:{name: "Paneer Butter Masala",price:"190",image:"paneer-tikka.jpg"},
+                item1:{name: "Paneer Butter Masala",price:"190",image:"Paneer-butter-masala"},
                 item2:{name: "Soya Chaap Gravy",price:"160",image:"no"},
                 item3:{name: "Butter Chicken",price:"260",image:"no"}        
     }       
